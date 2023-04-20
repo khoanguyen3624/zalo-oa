@@ -1,0 +1,98 @@
+#header{
+    background: #fff;
+    border-bottom: 1px solid #525358;
+    position: fixed;
+    line-height: 40px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+.container_space
+ {
+    padding-left: 50px ;
+    padding-right: 50px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    max-width: 1380px;
+    margin-left: auto;
+    margin-right: auto ; 
+
+}
+.logo {
+    cursor: pointer;
+    box-sizing: inherit;
+}
+
+.navi {
+    padding-left: 70px ;
+
+
+}
+.navi li:hover a {
+    display: inline-block;
+
+}
+
+.navi_list {
+    justify-content: space-between;
+}
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.nav_item{
+    list-style: none;
+    margin-left: 30px;
+}
+.nav_item-ClickDropdown {
+    padding-right: 10px;
+    list-style: none;
+    position: relative;
+    margin-left: 30px;
+    align-items: center;
+
+
+}
+span:hover {
+    color: #248aff;
+
+}
+
+.nav_item-ClickDropdown:hover .downcontent {
+    display: block;
+}
+.downcontent li a:hover {
+    background: #f6f6f7;
+    color: #248aff;
+}
+
+
+.downcontent a
+{
+    text-decoration: none;
+    color: #525358;
+    position: absolute;
+    padding: 12px 24px;
+    top: 100%;
+    border-radius: 8px;
+    left: 0;
+    display: none;
+}
+.block{
+    display: block;
+}
+.bluelist {
+    background-color: #fff;
+    border: 1px solid #248aff;
+    color: #248aff;
+    font-size: 16px;
+    line-height: 27px;
+    padding: 5px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
