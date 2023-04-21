@@ -69,21 +69,27 @@ span:hover {
     background: #f6f6f7;
     color: #248aff;
 }
-
-
+.downcontent {
+    position: absolute;
+    box-shadow: 0 0 16px rgba(0,0,0,.1);
+    border-radius: 8px;
+}
 .downcontent a
 {
     text-decoration: none;
     color: #525358;
-    position: absolute;
     padding: 12px 24px;
     top: 100%;
-    border-radius: 8px;
     left: 0;
     display: none;
+    min-width: 250px;
+    z-index: 9;
+
+
 }
 .block{
-    display: block;
+    display: flex;
+    height: 100%;
 }
 .bluelist {
     background-color: #fff;
@@ -94,5 +100,7 @@ span:hover {
     padding: 5px 20px;
     border-radius: 4px;
     cursor: pointer;
+    height: 100%;
+    display: flex;
 
 }
