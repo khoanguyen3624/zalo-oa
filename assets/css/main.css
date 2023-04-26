@@ -11,8 +11,7 @@
 }
 .container_space
  {
-    padding-left: 50px ;
-    padding-right: 50px;
+    padding: 7px 50px;
     display: flex;
     box-sizing: border-box;
     justify-content: space-between;
@@ -104,3 +103,16 @@ span:hover {
     display: flex;
 
 }
+@media (max-width: 1400px) {
+    header{
+        padding: 8px;
+       
+
+
+    }
+
+}
+@media (min-width: 950px) {
+
+}
+   
