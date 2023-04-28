@@ -115,4 +115,13 @@ span:hover {
 @media (min-width: 950px) {
 
 }
-   
+.introdution {
+    background: #fff;
+}
+.introdution .content-main {
+    position: relative;
+    padding: 30px 0 ;
+}
+.content {
+    width: 100%;
+}

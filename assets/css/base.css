@@ -29,6 +29,17 @@ ul {
     box-sizing: border-box;
     
 }
-
+main {
+    display: block;
+}
+body {
+    padding-top: 79px;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    font-size: 16px;
+    min-width: 300px;
+    
+}
 
 
