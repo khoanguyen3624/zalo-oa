@@ -119,15 +119,26 @@ span:hover {
 .introdution {
     background: #fff;
 }
+.container {
+    padding: 0 70px;
+    margin: 0 67px;
+    
+}
 .introdution .content-main {
     position: relative;
     padding: 30px 0 ;
+
 }
 .content-main {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    
-    
+ 
 }
 .content {
-    width: 100%;
+    width: 54%;
+}
+.images-start {
+    width: 46%;
+
 }
