@@ -114,13 +114,22 @@
     display: flex;
 
 }
+.bluelist span.zoom{
+    display: none;
+}
 
-@media (max-width: 1400px) {
+@media (max-width: 1250px) {
     header {
-        padding: 8px;
-
-
-
+        padding: 10px;
+    }
+    .navi {
+        display: none;
+    }
+    .bluelist span.zoom {
+        display: block;
+    }
+    .bluelist span.normal {
+        display: none;
     }
 
 }
@@ -191,7 +200,7 @@
     justify-content: center;
 
     background-color: #0068ff;
-    width: 30%;
+    width: 200px;
     height: 3.5rem;
     border-radius: 4px;
 }
